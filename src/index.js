@@ -1,5 +1,5 @@
 const lcjs = require('@lightningchart/lcjs')
-const { lightningChart, Themes, LUT, regularColorSteps, LegendBoxBuilders } = lcjs
+const { lightningChart, Themes, LUT, regularColorSteps } = lcjs
 
 const lc = lightningChart({
             resourcesBaseUrl: new URL(document.head.baseURI).origin + new URL(document.head.baseURI).pathname + 'resources/',
@@ -30,7 +30,4 @@ fetch(document.head.baseURI + 'examples/assets/1702/machine-learning-accuracy-da
             }),
         })
         data.forEach((sample) => chart.addSeries().setData(sample))
-
-        const legend = chart.addLegendBox(LegendBoxBuilders.HorizontalLegendBox).add(chart)
-        chart.setPadding({ bottom: 80 })
     })
