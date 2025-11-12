@@ -27,6 +27,7 @@ The example context is from Machine Learning training.
 
 ## API Links
 
+* [Parallel Coordinate Chart]
 
 
 ## Support
@@ -50,4 +51,5 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2025. All rights reserved.
 
 
+[Parallel Coordinate Chart]: https://lightningchart.com/js-charts/api-documentation/v8.1.0/classes/ParallelCoordinateChart.html
 
